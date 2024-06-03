@@ -4,8 +4,7 @@ This repository contains a customized implementation of the classic Snake game, 
 
 ## Video
 
-Watch the Snake AI in action [![Snake AI Video](http://img.youtube.com/vi/KlxuvUgSQRU/0.jpg)](https://www.youtube.com/watch?v=KlxuvUgSQRU)
-
+[![Snake AI Video](http://img.youtube.com/vi/KlxuvUgSQRU/0.jpg)](https://www.youtube.com/watch?v=KlxuvUgSQRU)
 
 ## Overview
 
