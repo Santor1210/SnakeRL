@@ -147,7 +147,6 @@ dmypy.json
 *.mkv
 *.jpg
 *.jpeg
-*.png
 *.bmp
 
 # General image and video files (in case generated or used by cv2)
