@@ -1,0 +1,31 @@
+## REWARDS
+timeout_penalty = -50
+dead_penalty = -20
+food_reward = 10
+move_penalty = 0
+distance_reward = 0.1
+
+## OBSERVATION SPACE
+Observation Space = Grayscale Img 39x39
+env = VecFrameStack(env, 2, channels_order='last')
+
+## HYPERPARAMS
+hyperparams = {'buffer_size': 100000,
+               'learning_rate': 0.0001,
+               'batch_size': 32,
+               'learning_starts': 100000,
+               'target_update_interval': 1000,
+               'train_freq': 4,
+               'gradient_steps': 1,
+               'exploration_fraction': 0.1,
+               'exploration_final_eps': 0.01,
+               'optimize_memory_usage': False}
+
+## HYPERPARAMS AFTER 7.6M STEPS
+learning_rate = 0.00001
+batch_size = 128
+exploration_final_eps = 0.0001
+exploration_fraction = 0.05
+train_freq = TrainFreq(frequency=16, unit=TrainFrequencyUnit.STEP)
+gradient_steps = 8
+target_update_interval = 500
